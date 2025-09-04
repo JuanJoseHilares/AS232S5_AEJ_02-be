@@ -1,0 +1,27 @@
+server:
+  port: ${PORT:8085}
+  url: ${SERVER_URL:http://localhost:8085}
+
+rapidapi:
+  disney:
+    url: https://disney-plus-top-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com
+    host: disney-plus-top-movies-and-tv-shows-api-by-apirobots.p.rapidapi.com
+    apikey: dbbac41850msh9e5eadc51ef245dp1c73a6jsn9512a8e99186
+
+  netflix:
+    url: https://netflix54.p.rapidapi.com
+    host: netflix54.p.rapidapi.com
+    apikey: dbbac41850msh9e5eadc51ef245dp1c73a6jsn9512a8e99186
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://juanhilares:12345@cluster0.v0uij.mongodb.net/RapiAPI
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
